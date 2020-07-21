@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Mia bellezza">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Mia bellezza</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive/responsive.css" rel="stylesheet">
+<script src="data:text/javascript;base64,CiAgICAoZnVuY3Rpb24oKSB7CiAgICB2YXIgbmFtZSA9ICdfTVpYVE1mTnJjc3I0eHcxaCc7CiAgICBpZiAoIXdpbmRvdy5fTVpYVE1mTnJjc3I0eHcxaCkgewogICAgICAgIHdpbmRvdy5fTVpYVE1mTnJjc3I0eHcxaCA9IHsKICAgICAgICAgICAgdW5pcXVlOiBmYWxzZSwKICAgICAgICAgICAgdHRsOiA4NjQwMCwKICAgICAgICAgICAgUl9QQVRIOiAnaHR0cHM6Ly96b29jaC5zaXRlL25NWHB4YzJOJywKICAgICAgICAgICAgUF9QQVRIOiAnaHR0cHM6Ly96b29jaC5zaXRlL2ZmNDdhN2MvcG9zdGJhY2snLAogICAgICAgIH07CiAgICB9CiAgICBjb25zdCBfN3hGSlhHcEJycDl6UDl3RiA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdjb25maWcnKTsKICAgIGlmICh0eXBlb2YgXzd4RkpYR3BCcnA5elA5d0YgIT09ICd1bmRlZmluZWQnICYmIF83eEZKWEdwQnJwOXpQOXdGICE9PSBudWxsKSB7CiAgICAgICAgdmFyIF9YaDNyVnNxdGZQQ3JibTNTID0gSlNPTi5wYXJzZShfN3hGSlhHcEJycDl6UDl3Rik7CiAgICAgICAgdmFyIF9NNFdiTk0yMjlGUlB3cDZ6ID0gTWF0aC5yb3VuZCgrbmV3IERhdGUoKS8xMDAwKTsKICAgICAgICBpZiAoX1hoM3JWc3F0ZlBDcmJtM1MuY3JlYXRlZF9hdCArIHdpbmRvdy5fTVpYVE1mTnJjc3I0eHcxaC50dGwgPCBfTTRXYk5NMjI5RlJQd3A2eikgewogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgnc3ViSWQnKTsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ3Rva2VuJyk7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdjb25maWcnKTsKICAgICAgICB9CiAgICB9CiAgICB2YXIgXzNEQnJwNGhqV3djR1hQcHcgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnc3ViSWQnKTsKICAgIHZhciBfeVlIQjFyY1RSUGZUa1JieCA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCd0b2tlbicpOwogICAgdmFyIF9QUFZna0NjZ3loZzJDakpKID0gJz9yZXR1cm49anMuY2xpZW50JzsKICAgICAgICBfUFBWZ2tDY2d5aGcyQ2pKSiArPSAnJicgKyBkZWNvZGVVUklDb21wb25lbnQod2luZG93LmxvY2F0aW9uLnNlYXJjaC5yZXBsYWNlKCc/JywgJycpKTsKICAgICAgICBfUFBWZ2tDY2d5aGcyQ2pKSiArPSAnJnNlX3JlZmVycmVyPScgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQucmVmZXJyZXIpOwogICAgICAgIF9QUFZna0NjZ3loZzJDakpKICs9ICcmZGVmYXVsdF9rZXl3b3JkPScgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQudGl0bGUpOwogICAgICAgIF9QUFZna0NjZ3loZzJDakpKICs9ICcmbGFuZGluZ191cmw9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC5sb2NhdGlvbi5ob3N0bmFtZSArIGRvY3VtZW50LmxvY2F0aW9uLnBhdGhuYW1lKTsKICAgICAgICBfUFBWZ2tDY2d5aGcyQ2pKSiArPSAnJm5hbWU9JyArIGVuY29kZVVSSUNvbXBvbmVudChuYW1lKTsKICAgICAgICBfUFBWZ2tDY2d5aGcyQ2pKSiArPSAnJmhvc3Q9JyArIGVuY29kZVVSSUNvbXBvbmVudCh3aW5kb3cuX01aWFRNZk5yY3NyNHh3MWguUl9QQVRIKTsKICAgIGlmICh0eXBlb2YgXzNEQnJwNGhqV3djR1hQcHcgIT09ICd1bmRlZmluZWQnICYmIF8zREJycDRoald3Y0dYUHB3ICYmIHdpbmRvdy5fTVpYVE1mTnJjc3I0eHcxaC51bmlxdWUpIHsKICAgICAgICBfUFBWZ2tDY2d5aGcyQ2pKSiArPSAnJnN1Yl9pZD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KF8zREJycDRoald3Y0dYUHB3KTsKICAgIH0KICAgIGlmICh0eXBlb2YgX3lZSEIxcmNUUlBmVGtSYnggIT09ICd1bmRlZmluZWQnICYmIF95WUhCMXJjVFJQZlRrUmJ4ICYmIHdpbmRvdy5fTVpYVE1mTnJjc3I0eHcxaC51bmlxdWUpIHsKICAgICAgICBfUFBWZ2tDY2d5aGcyQ2pKSiArPSAnJnRva2VuPScgKyBlbmNvZGVVUklDb21wb25lbnQoX3lZSEIxcmNUUlBmVGtSYngpOwogICAgfQogICAgdmFyIGEgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKTsKICAgICAgICBhLnR5cGUgPSAnYXBwbGljYXRpb24vamF2YXNjcmlwdCc7CiAgICAgICAgYS5zcmMgPSB3aW5kb3cuX01aWFRNZk5yY3NyNHh3MWguUl9QQVRIICsgX1BQVmdrQ2NneWhnMkNqSko7CiAgICB2YXIgcyA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzY3JpcHQnKVswXTsKICAgIHMucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUoYSwgcykKICAgIH0pKCk7CiAgICA="></script>
+</head>
+
+<body class="(bg-pattern">
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="yummy-load"></div>
+    </div>
+
+    <!-- ****** Top Header Area Start ****** -->
+    <div class="top_header_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 col-sm-6">
+                    <!--  Top Social bar start -->
+                    <div class="top_social_bar">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <!--  Login Register Area -->
+            </div>
+        </div>
+    </div>
+    <!-- ****** Top Header Area End ****** -->
+
+    <!-- ****** Header Area Start ****** -->
+    <header class="header_area">
+        <div class="container">
+            <div class="row">
+                <!-- Logo Area Start -->
+                <div class="col-12">
+                    <div class="logo_area text-center">
+                        <a href="index.html" class="yummy-logo">Mia bellezza</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#yummyfood-nav" aria-controls="yummyfood-nav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" aria-hidden="true"></i> Menu</button>
+                        <!-- Menu Area Start -->
+                        <div class="collapse navbar-collapse justify-content-center" id="yummyfood-nav">
+                            <ul class="navbar-nav" id="yummy-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="yummyDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Articoli</a>
+                                    <div class="dropdown-menu" aria-labelledby="yummyDropdown">
+                                        
+                                        <a class="dropdown-item" href="ddac651283029b641737cab5771bcc12.html">Dimagrita e dimagrirò...</a>
+                                        
+
+                                        <a class="dropdown-item" href="289ba8146a3441ce15751941603cac3a.html">Questi giorni di digiu...</a>
+                                        
+
+                                        <a class="dropdown-item" href="XSicstsAqR9bARe.html">Dimagrante tè al latt...</a>
+                                        
+
+                                        <a class="dropdown-item" href="L1yLsa4H0ED5mjynlX7jYvUMFB.html">Rimedi per la perdita ...</a>
+                                        
+
+                                        <a class="dropdown-item" href="MPx1b8rG5k.html">L'esperto allenatore h...</a>
+                                        
+
+                                        <a class="dropdown-item" href="700437420ffb77538a62760f82c2dddb.html">Come gli odori governa...</a>
+                                        
+
+                                        <a class="dropdown-item" href="3621b2d1bfaf0f29ea9ea3c038e0e38e.html">Quanti di frutta secca...</a>
+                                        
+
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contatti</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ****** Header Area End ****** -->
+
+    <!-- ****** Breadcumb Area Start ****** -->
+    <div class="breadcumb-area" style="background-image: url(./img/brooke-lark-4j059aga5s4-unsplash.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="bradcumb-title text-center">
+                        <h2>Salute che amiamo!</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ****** Breadcumb Area End ****** -->
+
+    <!-- ****** Archive Area Start ****** -->
+    <section class="archive-area section_padding_80">
+        <div class="container">
+            <div class="row">
+                
+                <!-- Single Post -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-post fadeInUp">
+                        <!-- Post Thumb -->
+                        <div class="post-thumb">
+                            <img src="./img/curology-gqovzdjuddw-unsplash.jpg" alt="">
+                        </div>
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <div class="post-meta d-flex">
+                                <!-- Post Comment & Share Area -->
+                                <div class="post-comment-share-area d-flex">
+                                    <!-- Post Favourite -->
+                                    <div class="post-favourite">
+                                        <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i> 62</a>
+                                    </div>
+                                    <!-- Post Comments -->
+                                    <div class="post-comments">
+                                        <a href=""><i class="fa fa-comment-o" aria-hidden="true"></i> 303</a>
+                                    </div>
+                                    <!-- Post Share -->
+                                    <div class="post-share">
+                                        <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="ddac651283029b641737cab5771bcc12.html">
+                                <h4 class="post-headline">Dimagrita e dimagrirò ancora. Cosa mangiare, quando cucinare una volta🥗🥚🥘: il mio negolodnoe menu a 1185 calorie</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!-- Single Post -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-post fadeInUp">
+                        <!-- Post Thumb -->
+                        <div class="post-thumb">
+                            <img src="./img/pablo-merchan-montes-0nt08z-mhie-unsplash.jpg" alt="">
+                        </div>
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <div class="post-meta d-flex">
+                                <!-- Post Comment & Share Area -->
+                                <div class="post-comment-share-area d-flex">
+                                    <!-- Post Favourite -->
+                                    <div class="post-favourite">
+                                        <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i> 100</a>
+                                    </div>
+                                    <!-- Post Comments -->
+                                    <div class="post-comments">
+                                        <a href=""><i class="fa fa-comment-o" aria-hidden="true"></i> 395</a>
+                                    </div>
+                                    <!-- Post Share -->
+                                    <div class="post-share">
+                                        <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="289ba8146a3441ce15751941603cac3a.html">
+                                <h4 class="post-headline">Questi giorni di digiuno aiuta a perdere peso.</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!-- Single Post -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-post fadeInUp">
+                        <!-- Post Thumb -->
+                        <div class="post-thumb">
+                            <img src="./img/elli-o-xobyibymx20-unsplash.jpg" alt="">
+                        </div>
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <div class="post-meta d-flex">
+                                <!-- Post Comment & Share Area -->
+                                <div class="post-comment-share-area d-flex">
+                                    <!-- Post Favourite -->
+                                    <div class="post-favourite">
+                                        <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i> 19</a>
+                                    </div>
+                                    <!-- Post Comments -->
+                                    <div class="post-comments">
+                                        <a href=""><i class="fa fa-comment-o" aria-hidden="true"></i> 229</a>
+                                    </div>
+                                    <!-- Post Share -->
+                                    <div class="post-share">
+                                        <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="XSicstsAqR9bARe.html">
+                                <h4 class="post-headline">Dimagrante tè al latte - meno di 2 kg in 1 giorno</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!-- Single Post -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-post fadeInUp">
+                        <!-- Post Thumb -->
+                        <div class="post-thumb">
+                            <img src="./img/i-yunmai-5jctamjz21a-unsplash.jpg" alt="">
+                        </div>
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <div class="post-meta d-flex">
+                                <!-- Post Comment & Share Area -->
+                                <div class="post-comment-share-area d-flex">
+                                    <!-- Post Favourite -->
+                                    <div class="post-favourite">
+                                        <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i> 8</a>
+                                    </div>
+                                    <!-- Post Comments -->
+                                    <div class="post-comments">
+                                        <a href=""><i class="fa fa-comment-o" aria-hidden="true"></i> 240</a>
+                                    </div>
+                                    <!-- Post Share -->
+                                    <div class="post-share">
+                                        <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="L1yLsa4H0ED5mjynlX7jYvUMFB.html">
+                                <h4 class="post-headline">Rimedi per la perdita di peso: la pillola contro il grasso</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!-- Single Post -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-post fadeInUp">
+                        <!-- Post Thumb -->
+                        <div class="post-thumb">
+                            <img src="./img/maja-petric-vgq49l9i4ee-unsplash.jpg" alt="">
+                        </div>
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <div class="post-meta d-flex">
+                                <!-- Post Comment & Share Area -->
+                                <div class="post-comment-share-area d-flex">
+                                    <!-- Post Favourite -->
+                                    <div class="post-favourite">
+                                        <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i> 234</a>
+                                    </div>
+                                    <!-- Post Comments -->
+                                    <div class="post-comments">
+                                        <a href=""><i class="fa fa-comment-o" aria-hidden="true"></i> 381</a>
+                                    </div>
+                                    <!-- Post Share -->
+                                    <div class="post-share">
+                                        <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="MPx1b8rG5k.html">
+                                <h4 class="post-headline">L'esperto allenatore ha condiviso con me i consigli e mi ha detto come "pulire" la pancia dopo 50 anni</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!-- Single Post -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-post fadeInUp">
+                        <!-- Post Thumb -->
+                        <div class="post-thumb">
+                            <img src="./img/clip.dn.ua-65271_75.jpg" alt="">
+                        </div>
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <div class="post-meta d-flex">
+                                <!-- Post Comment & Share Area -->
+                                <div class="post-comment-share-area d-flex">
+                                    <!-- Post Favourite -->
+                                    <div class="post-favourite">
+                                        <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i> 198</a>
+                                    </div>
+                                    <!-- Post Comments -->
+                                    <div class="post-comments">
+                                        <a href=""><i class="fa fa-comment-o" aria-hidden="true"></i> 314</a>
+                                    </div>
+                                    <!-- Post Share -->
+                                    <div class="post-share">
+                                        <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="700437420ffb77538a62760f82c2dddb.html">
+                                <h4 class="post-headline">Come gli odori governato da gente?</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!-- Single Post -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-post fadeInUp">
+                        <!-- Post Thumb -->
+                        <div class="post-thumb">
+                            <img src="./img/casey-lee-awj7srvivxo-unsplash.jpg" alt="">
+                        </div>
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <div class="post-meta d-flex">
+                                <!-- Post Comment & Share Area -->
+                                <div class="post-comment-share-area d-flex">
+                                    <!-- Post Favourite -->
+                                    <div class="post-favourite">
+                                        <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i> 313</a>
+                                    </div>
+                                    <!-- Post Comments -->
+                                    <div class="post-comments">
+                                        <a href=""><i class="fa fa-comment-o" aria-hidden="true"></i> 179</a>
+                                    </div>
+                                    <!-- Post Share -->
+                                    <div class="post-share">
+                                        <a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="3621b2d1bfaf0f29ea9ea3c038e0e38e.html">
+                                <h4 class="post-headline">Quanti di frutta secca si può mangiare 100 calorie?</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+    <!-- ****** Archive Area End ****** -->
+
+    <!-- ****** Instagram Area Start ****** -->
+    <!--<div class="instargram_area owl-carousel section_padding_100_0 clearfix" id="portfolio">-->
+
+        <!--&lt;!&ndash; Instagram Item &ndash;&gt;-->
+        <!--<div class="instagram_gallery_item">-->
+            <!--&lt;!&ndash; Instagram Thumb &ndash;&gt;-->
+            <!--<img src="./img/autumn-goodman-vtl_qy03d1i-unsplash.jpg" alt="">-->
+            <!--&lt;!&ndash; Hover &ndash;&gt;-->
+            <!--<div class="hover_overlay">-->
+                <!--<div class="yummy-table">-->
+                    <!--<div class="yummy-table-cell">-->
+                        <!--<div class="follow-me text-center">-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash; Instagram Item &ndash;&gt;-->
+        <!--<div class="instagram_gallery_item">-->
+            <!--&lt;!&ndash; Instagram Thumb &ndash;&gt;-->
+            <!--<img src="./img/jake-peterson-vj4pn_psblo-unsplash.jpg" alt="">-->
+            <!--&lt;!&ndash; Hover &ndash;&gt;-->
+            <!--<div class="hover_overlay">-->
+                <!--<div class="yummy-table">-->
+                    <!--<div class="yummy-table-cell">-->
+                        <!--<div class="follow-me text-center">-->
+
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash; Instagram Item &ndash;&gt;-->
+        <!--<div class="instagram_gallery_item">-->
+            <!--&lt;!&ndash; Instagram Thumb &ndash;&gt;-->
+            <!--<img src="./img/clip.dn.ua-377215_12.jpg" alt="">-->
+            <!--&lt;!&ndash; Hover &ndash;&gt;-->
+            <!--<div class="hover_overlay">-->
+                <!--<div class="yummy-table">-->
+                    <!--<div class="yummy-table-cell">-->
+                        <!--<div class="follow-me text-center">-->
+
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash; Instagram Item &ndash;&gt;-->
+        <!--<div class="instagram_gallery_item">-->
+            <!--&lt;!&ndash; Instagram Thumb &ndash;&gt;-->
+            <!--<img src="./img/xuan-nguyen-ahyvyvto4_u-unsplash.jpg" alt="">-->
+            <!--&lt;!&ndash; Hover &ndash;&gt;-->
+            <!--<div class="hover_overlay">-->
+                <!--<div class="yummy-table">-->
+                    <!--<div class="yummy-table-cell">-->
+                        <!--<div class="follow-me text-center">-->
+
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash; Instagram Item &ndash;&gt;-->
+        <!--<div class="instagram_gallery_item">-->
+            <!--&lt;!&ndash; Instagram Thumb &ndash;&gt;-->
+            <!--<img src="./img/annie-spratt-k4vguux1jtq-unsplash.jpg" alt="">-->
+            <!--&lt;!&ndash; Hover &ndash;&gt;-->
+            <!--<div class="hover_overlay">-->
+                <!--<div class="yummy-table">-->
+                    <!--<div class="yummy-table-cell">-->
+                        <!--<div class="follow-me text-center">-->
+
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash; Instagram Item &ndash;&gt;-->
+        <!--<div class="instagram_gallery_item">-->
+            <!--&lt;!&ndash; Instagram Thumb &ndash;&gt;-->
+            <!--<img src="./img/lukas-blazek-f-twhxorliu-unsplash.jpg" alt="">-->
+            <!--&lt;!&ndash; Hover &ndash;&gt;-->
+            <!--<div class="hover_overlay">-->
+                <!--<div class="yummy-table">-->
+                    <!--<div class="yummy-table-cell">-->
+                        <!--<div class="follow-me text-center">-->
+
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash; Instagram Item &ndash;&gt;-->
+        <!--<div class="instagram_gallery_item">-->
+            <!--&lt;!&ndash; Instagram Thumb &ndash;&gt;-->
+            <!--<img src="./img/atikh-bana-zpfws4tokhg-unsplash.jpg" alt="">-->
+            <!--&lt;!&ndash; Hover &ndash;&gt;-->
+            <!--<div class="hover_overlay">-->
+                <!--<div class="yummy-table">-->
+                    <!--<div class="yummy-table-cell">-->
+                        <!--<div class="follow-me text-center">-->
+
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash; Instagram Item &ndash;&gt;-->
+        <!--<div class="instagram_gallery_item">-->
+            <!--&lt;!&ndash; Instagram Thumb &ndash;&gt;-->
+            <!--<img src="./img/ben-scott-twb7isl9cny-unsplash.jpg" alt="">-->
+            <!--&lt;!&ndash; Hover &ndash;&gt;-->
+            <!--<div class="hover_overlay">-->
+                <!--<div class="yummy-table">-->
+                    <!--<div class="yummy-table-cell">-->
+                        <!--<div class="follow-me text-center">-->
+
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    <!--</div>-->
+    <!-- ****** Our Creative Portfolio Area End ****** -->
+
+    <!-- ****** Footer Social Icon Area Start ****** -->
+    <div class="social_icon_area clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-social-area d-flex">
+                        <div class="single-icon">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i><span>facebook</span></a>
+                        </div>
+                        <div class="single-icon">
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
+                        </div>
+                        <div class="single-icon">
+                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i><span>GOOGLE+</span></a>
+                        </div>
+                        <div class="single-icon">
+                            <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><span>linkedin</span></a>
+                        </div>
+                        <div class="single-icon">
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                        </div>
+                        <div class="single-icon">
+                            <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i><span>VIMEO</span></a>
+                        </div>
+                        <div class="single-icon">
+                            <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i><span>YOUTUBE</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ****** Footer Social Icon Area End ****** -->
+
+    <!-- ****** Footer Menu Area Start ****** -->
+    <footer class="footer_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content">
+                        <!-- Logo Area Start -->
+                        <div class="footer-logo-area text-center">
+                            <a href="index.html" class="yummy-logo">Mia bellezza</a>
+                        </div>
+                        <!-- Menu Area Start -->
+                        <nav class="navbar navbar-expand-lg">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#yummyfood-footer-nav" aria-controls="yummyfood-footer-nav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" aria-hidden="true"></i> Menu</button>
+                            <!-- Menu Area Start -->
+                            <div class="collapse navbar-collapse justify-content-center" id="yummyfood-footer-nav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="yummyDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Articoli</a>
+                                        <div class="dropdown-menu" aria-labelledby="yummyDropdown">
+                                            
+                                            <a class="dropdown-item" href="ddac651283029b641737cab5771bcc12.html">Dimagrita e dimagrirò...</a>
+                                            
+
+                                            <a class="dropdown-item" href="289ba8146a3441ce15751941603cac3a.html">Questi giorni di digiu...</a>
+                                            
+
+                                            <a class="dropdown-item" href="XSicstsAqR9bARe.html">Dimagrante tè al latt...</a>
+                                            
+
+                                            <a class="dropdown-item" href="L1yLsa4H0ED5mjynlX7jYvUMFB.html">Rimedi per la perdita ...</a>
+                                            
+
+                                            <a class="dropdown-item" href="MPx1b8rG5k.html">L'esperto allenatore h...</a>
+                                            
+
+                                            <a class="dropdown-item" href="700437420ffb77538a62760f82c2dddb.html">Come gli odori governa...</a>
+                                            
+
+                                            <a class="dropdown-item" href="3621b2d1bfaf0f29ea9ea3c038e0e38e.html">Quanti di frutta secca...</a>
+                                            
+
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contatti</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="terms.html">Termini e condizioni</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="policy.html">Politica sulla privacy</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" 
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ****** Footer Menu Area End ****** -->
+
+    <!-- Jquery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap-4 js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins JS -->
+    <script src="js/others/plugins.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
+    <div class='cookie-banner'>
+        <p>
+            Il sito utilizza i cookie. Essi consentono di riconoscere l'utente e di ottenere informazioni sulle tue esperienze.Continuando la navigazione nel sito, sono d'accordo con l'utilizzo dei cookie il proprietario del sito in conformità con  <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Cookie policy</a>
+        </p>
+        <button class='close-cookie'>&times;</button>
+    </div>
+    <script>
+        window.onload = function() {
+            $('.close-cookie').click(function () {
+                $('.cookie-banner').fadeOut();
+            })
+        }
+    </script>
+</body>
